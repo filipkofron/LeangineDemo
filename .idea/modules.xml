@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LeangineDemo.iml" filepath="$PROJECT_DIR$/LeangineDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leangine/leangine.iml" filepath="$PROJECT_DIR$/leangine/leangine.iml" />
     </modules>
   </component>
 </project>

@@ -5,12 +5,18 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import cz.kofron.leangine.Leangine;
+
 
 public class LeangineActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+	    Leangine leangine = new Leangine(this);
+	    System.out.println("Leangine: " + leangine);
+
         setContentView(R.layout.activity_leangine);
     }
 
